@@ -1,6 +1,6 @@
 
 var body = $response.body;
-var url = $resquest.url;
+var url = $request.url;
 const path1 = "/room/get-room-info-v430";
 const path2 = "/video/appnesting-detail";
 if (url.indexOf(path1) != -1){
