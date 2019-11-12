@@ -4,6 +4,6 @@
 
 var body = $response.body;
 var obj = JSON.parse(body);
-obj.data.anchor.userHas = true;
+obj.data.anchor.uname = "小马哥说毛线";
 body = JSON.stringify(obj);
 $done({body});
