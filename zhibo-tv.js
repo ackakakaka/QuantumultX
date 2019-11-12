@@ -1,7 +1,6 @@
 
 var body = $response.body;
 var url = $resquest.url;
-var obj = JSON.parse(body);
 const path1 = "/room/get-room-info-v430";
 const path2 = "/video/appnesting-detail";
 if (url.indexOf(path1) != -1){
