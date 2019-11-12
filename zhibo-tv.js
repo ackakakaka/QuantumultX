@@ -1,7 +1,7 @@
 /*
 中国体育直播TV 乒乓球VIP UNLOCK
 
-^http?:\/\/rest\.zhibo\.tv\/(room\/get-room-info-v430|video\/appnesting-detail) url script-response-body https://raw.githubusercontent.com/ackakakaka/zhibo-tv/master/zhibo-tv.js
+^http?:\/\/rest\.zhibo\.tv\/(room\/get-room-info-v430|video\/appnesting-detail) url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/zhibo-tv.js
 */
 
 var body = $response.body;
