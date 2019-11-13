@@ -1,9 +1,9 @@
 /*
 XiaoXiaoYingShi unlock Vip
 QX:
-https:\/\/ios\.xiaoxiaoapps\.com\/(vod\/reqplay\/|ucp/index) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
+https:\/\/ios\.xiaoxiaoapps\.com\/(vod\/reqplay\/|ucp/index) url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/xxys.js/File/xxys.js
 Surge:
-http-response https:\/\/ios\.xiaoxiaoapps\.com\/(vod\/reqplay\/|ucp/index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
+http-response https:\/\/ios\.xiaoxiaoapps\.com\/(vod\/reqplay\/|ucp/index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/xxys.js
 
 MITM = ios.xiaoxiaoapps.com
 */
