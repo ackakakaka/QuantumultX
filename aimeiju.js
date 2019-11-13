@@ -3,10 +3,10 @@
 app download link : app.meiju2018.com
 
 QX : 
-^https?:\/\/mjapp\.\w{1,9}\.com\/index\.php\/app\/ios\/(vod\/show|user\/index) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
+^https?:\/\/mjapp\.\w{1,9}\.com\/index\.php\/app\/ios\/(vod\/show|user\/index) url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/aimeiju.js
 
 Surge4：
-http-response ^https?:\/\/mjapp\.\w{1,9}\.com\/index\.php\/app\/ios\/(vod\/show|user\/index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
+http-response ^https?:\/\/mjapp\.\w{1,9}\.com\/index\.php\/app\/ios\/(vod\/show|user\/index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/aimeiju.js
 */
 
 var body = $response.body;
