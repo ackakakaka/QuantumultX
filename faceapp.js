@@ -19,7 +19,8 @@ obj = {
  },
  "subscription_google": null
 };
- 
+
+delete headers['X-FaceApp-ErrorCode'];
 $done({
     body: JSON.stringify(obj),
     headers: headers,
