@@ -6,8 +6,7 @@ http-response ^https?:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credential
 hostname = api.faceapp.io
 */
 
-let headers = $response.headers; 
-let obj = JSON.parse($response.body);
+var obj = $response.body;
  
 obj = {
  "user": null,
@@ -20,9 +19,4 @@ obj = {
  "subscription_google": null
 };
 
-delete headers['X-FaceApp-ErrorCode'];
-$done({
-    body: JSON.stringify(obj),
-    headers: headers,
-    status: 200,
-});
+$done({body});
