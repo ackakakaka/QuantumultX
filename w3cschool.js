@@ -5,9 +5,13 @@ w3cschool VIP UNLOCK
 */
 
 var body = $response.body;
-var obj = JSON.parse(body);
+var url = $request.url;
+const path1 = '/api/myapp/isLogin';
+let obj = JSON.parse(body);
+if (url.indexOf(path1) != -1) {
  obj.viptype = "2";
  obj.viplevel = "1";
  obj.vipexpire = "2030-10-10 10-10-10";
  body = JSON.stringify(obj);
+}
 $done({body});
