@@ -6,8 +6,8 @@ w3cschool VIP UNLOCK
 
 var obj = $response.body;
 obj = {
- "viptype" = "2",
- "viplevel" = "1",
- "vipexpire" = "2030-10-10 10-10-10",
+ "viptype": "2",
+ "viplevel": "1",
+ "vipexpire": "2030-10-10 10-10-10",
 };
 $done({body});
