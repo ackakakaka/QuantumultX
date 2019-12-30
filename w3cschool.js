@@ -5,9 +5,6 @@ w3cschool VIP UNLOCK
 */
 
 var body = $response.body;
-var url = $request.url;
-const path1 = "/api/myapp/isLogin";
-if (url.indexOf(path1) != -1){
  let obj = JSON.parse(body);
  obj.viptype = "2";
  obj.viplevel = "1";
