@@ -6,9 +6,9 @@ w3cschool VIP UNLOCK
 
 var body = $response.body;
  let obj = JSON.parse(body);
- obj.viptype = "2";
- obj.viplevel = "1";
- obj.vipexpire = "2030-10-10 10-10-10";
+ obj["viptype"] = "2";
+ obj["viplevel"] = "1";
+ obj["vipexpire"] = "2030-10-10 10-10-10";
  body = JSON.stringify(obj);
 }
 $done({body});
