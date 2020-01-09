@@ -1,3 +1,7 @@
+/*
+^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$ url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/dayone.js
+*/
+
 if ($response.statusCode == 200) {
         if ($request.url.endsWith("account-status")) {
 
